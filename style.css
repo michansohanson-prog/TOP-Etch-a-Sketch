@@ -1,0 +1,44 @@
+* {
+	box-sizing: "border-box";
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #999;
+}
+#main-header {
+	text-align: center;
+	margin: 30px 20px;
+	border: 1px solid black;
+	box-shadow: 4px 4px 2px black;
+}
+#main-header h1 {
+	padding: 20px;
+	text-shadow: 2px 2px 1px rgb(208, 208, 208);
+}
+#main-header p {
+	padding-bottom: 20px;
+	text-shadow: 2px 2px 1px rgb(208, 208, 208);
+}
+#btn-container {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+#res-btn {
+	padding: 10px;
+	font-size: 20px;
+	background-color: rgb(5, 42, 8);
+	color: rgb(208, 208, 208);
+	text-shadow: 2px 2px 1px rgb(20, 20, 20);
+	border-radius: 20px;
+	box-shadow: 4px 4px 2px black;
+}
+#main-container {
+	display: flex;
+	margin: auto;
+	height: 900px;
+	width: 900px;
+	border: 1px solid black;
+	box-shadow: 4px 4px 2px black;
+}
